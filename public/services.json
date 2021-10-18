@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "img": "https://images.unsplash.com/photo-1598531228433-d9f0cb960816?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80", 
+        "title": "Braces",
+        "desc": "Dental braces (also known as braces, orthodontic cases, or cases) are devices used in orthodontics that align and straighten teeth and"
+    },
+    {
+        "id": 2,
+        "img": "https://images.unsplash.com/photo-1468493858157-0da44aaf1d13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80", 
+        "title": "Dental Fillings",
+        "desc": "To treat a cavity your dentist will remove the decayed portion of the tooth and then fill the area on the tooth where the decayed material was removed."
+    },
+    {
+        "id": 3,
+        "img": "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80", 
+        "title": "Dental Implants",
+        "desc": "Despite improvements in dental care, millions of Americans suffer tooth loss -- mostly due to tooth decay, periodontal disease, or injury. For many years,"
+    },
+    {
+        "id": 4,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2q2Lkfc_BSSOz_vPTU4fEa-MhqxA1GgrVkQ&usqp=CAU", 
+        "title": "Periodontology",
+        "desc": "This is the specialty that diagnoses and treats conditions affecting the gums and the periodontal tissues. Periodontal tissues are those structures that help support"
+    },
+    {
+        "id": 5,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTThwObvAO46RqVwt9uZeC8U1cVH59favAM7w&usqp=CAU", 
+        "title": "Gingivities",
+        "desc": "Gingivitis is a common and mild form of gum disease (periodontal disease) that causes irritation, redness and swelling (inflammation) of your gingiva"
+    },
+    {
+        "id": 6,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUlDkbJo5Xm8uiQa-uTEzrC4hxmBMpT_nUWw&usqp=CAU", 
+        "title": "Oral Hygine",
+        "desc": "Oral hygiene is the practice of keeping one's mouth clean and free of disease and other problems (e.g. bad breath) by regular brushing of the teeth "
+    },
+    {
+        "id": 7,
+        "img": "https://images.unsplash.com/photo-1581584731241-c134a1afe9a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80", 
+        "title": "Dental Surgery",
+        "desc": "the opening of the pulp chamber of the tooth to allow an infection to drain usually a precursor to a root canal Pulpectomy the removal of the pulp from the pulp"
+    },
+    {
+        "id": 8,
+        "img": "https://images.unsplash.com/photo-1611690060937-b1be8b100837?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1186&q=80", 
+        "title": "Dentures",
+        "desc": "Denture stomatitis is an inflammatory condition of the skin under the dentures.[1] It can affect both partial and complete denture wearers, and is most"
+    },
+    {
+        "id": 9,
+        "img": "https://images.unsplash.com/photo-1581939511501-4ec557ff0957?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80", 
+        "title": "Cosmetic Whitening",
+        "desc": "The American Dental Association (ADA) has also said that hydrogen peroxide whiteners are safe and effective. Look for the ADA seal of approval."
+    }
+]

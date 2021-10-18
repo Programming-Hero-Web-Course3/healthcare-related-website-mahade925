@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+.banner-container {
+    display: flex;
+    text-align: left;
+    height: 90vh;
+}
+
+.content {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.content h3 {
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+.content h1 {
+    font-size: 60px;
+    margin-bottom: 2%;
+}
+.content p {
+    width: 69%;
+    margin: 6% 0%;
+    color: #8395a7;
+    font-size: 17px;
+}
+
+.content button {
+    margin-right: 5%;
+    cursor: pointer;
+    border: none;
+    font-size: 19px;
+    border-radius: 8px;
+    background-color: none;
+    padding: 17px 35px;
+}
+
+.appointment {
+    color: white;
+    background-color: rgb(0, 147, 184);
+}
+
+.appointment:hover {
+    transition: all 0.3s ease 0s;
+    color: black;
+    border: 1px solid rgb(0, 147, 184);
+    background-color: transparent;
+}
+
+.banner-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-img img {
+    width: 95%;
+    height: 80%;
+}
+
+@media (max-width: 768px) {
+    .content, .banner-img {
+        width: 100%;
+    }
+    .content h3 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .content h1 {
+        font-size: 40px;
+    }
+    .content p {
+        margin: 10% 0;
+        width: 91%;
+    }
+    .banner-container {
+        margin-top: 20%;
+        display: block;
+    }
+    .banner-img img {
+        margin-top: 15%;
+        width: 95%;
+        height: 100%;
+    }
+}
