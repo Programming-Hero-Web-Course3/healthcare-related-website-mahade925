@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 li, .link, .signup-btn, .signin-link {
@@ -58,6 +59,10 @@ header {
 
 .signup-btn:hover {
     background-color: rgba(0, 136, 169, 0.8);
+}
+
+.signed-as {
+    color: white;
 }
 
 @media (max-width: 768px) {

@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "img": "https://images.unsplash.com/photo-1598531228433-d9f0cb960816?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80", 
+        "title": "Braces",
+        "desc": "The application of braces moves the teeth as a result of force and pressure on the teeth. There are traditionally four basic elements used: brackets, bonding material, arch wire, and ligature elastic (also called an “O-ring”). The teeth move when the arch wire puts pressure on the brackets and teeth. Sometimes springs or rubber bands are used to put more force in a specific direction.[medical citation needed][1]Braces have constant pressure which, over time, move teeth into the desired positions. The process loosens the tooth after which new bone grows in to support the tooth in its new position. This is called bone remodeling. Bone remodeling is a biomechanical process responsible for making bones stronger in response to sustained load-bearing activity and weaker in the absence of carrying a load. Bones are made of cells called osteoclasts and osteoblasts"
+    },
+    {
+        "id": 2,
+        "img": "https://images.unsplash.com/photo-1468493858157-0da44aaf1d13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80", 
+        "title": "Dental Fillings",
+        "desc": "The process of preparation usually involves cutting the tooth with a rotary dental handpiece and dental burrs or a dental laser to make space for the planned restorative materials and to remove any dental decay or portions of the tooth that are structurally unsound. If permanent restoration cannot be carried out immediately after tooth preparation, temporary restoration may be performed.The prepared tooth, ready for placement of restorative materials, is generally called a tooth preparation. Materials used may be gold, amalgam, dental composites, glass ionomer cement, or porcelain, among others. Preparations may be intracoronal or extracoronal"
+    },
+    {
+        "id": 3,
+        "img": "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80", 
+        "title": "Dental Implants",
+        "desc": "A dental implant (also known as an endosseous implant or fixture) is a surgical component that interfaces with the bone of the jaw or skull to support a dental prosthesis such as a crown, bridge, denture, or facial prosthesis or to act as an orthodontic anchor. The basis for modern dental implants is a biologic process called osseointegration, in which materials such as titanium or zirconia form an intimate bond to bone. "
+    },
+    {
+        "id": 4,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2q2Lkfc_BSSOz_vPTU4fEa-MhqxA1GgrVkQ&usqp=CAU", 
+        "title": "Periodontology",
+        "desc": "Normal gingiva may range in color from light coral pink to heavily pigmented. The soft tissues and connective fibres that cover and protect the underlying cementum, periodontal ligament and alveolar bone are known as the gingivae. The gingivae are categorised into three anatomical groups: the free, attached and the interdental gingiva. Each of the gingival groups are considered biologically different; however, they are all specifically designed to help protect against mechanical and bacterial destruction"
+    },
+    {
+        "id": 5,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTThwObvAO46RqVwt9uZeC8U1cVH59favAM7w&usqp=CAU", 
+        "title": "Gingivities",
+        "desc": "Additionally, the stippling that normally exists in the gum tissue of some individuals will often disappear and the gums may appear shiny when the gum tissue becomes swollen and stretched over the inflamed underlying connective tissue. The accumulation may also emit an unpleasant odor. When the gingiva are swollen"
+    },
+    {
+        "id": 6,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUlDkbJo5Xm8uiQa-uTEzrC4hxmBMpT_nUWw&usqp=CAU", 
+        "title": "Oral Hygine",
+        "desc": "Oral hygiene is the practice of keeping one's mouth clean and free of disease and other problems (e.g. bad breath) by regular brushing of the teeth (dental hygiene) and cleaning between the teeth. It is important that oral hygiene be carried out on a regular basis to enable prevention of dental disease and bad breath. The most common types of dental disease are tooth decay"
+    },
+    {
+        "id": 7,
+        "img": "https://images.unsplash.com/photo-1581584731241-c134a1afe9a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80", 
+        "title": "Dental Surgery",
+        "desc": "More frequent than usual cleaning and examination may be necessary during the treatment of many different dental/oral disorders or due to recent surgical procedures such as dental implants. The American Dental Association (ADA) stresses that the frequency of dental visits necessary is dependent upon the needs of each individual with some able to go once or twice a year"
+    },
+    {
+        "id": 8,
+        "img": "https://images.unsplash.com/photo-1611690060937-b1be8b100837?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1186&q=80", 
+        "title": "Dentures",
+        "desc": "Dentures (also known as false teeth) are prosthetic devices constructed to replace missing teeth, and are supported by the surrounding soft and hard tissues of the oral cavity. Conventional dentures are removable (removable partial denture or complete denture). However, there are many denture designs, some which rely on bonding"
+    },
+    {
+        "id": 9,
+        "img": "https://images.unsplash.com/photo-1581939511501-4ec557ff0957?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80", 
+        "title": "Cosmetic Whitening",
+        "desc": "Skin whitening, also known as skin lightening and skin bleaching, is the practice of using chemical substances in an attempt to lighten the skin or provide an even skin color by reducing the melanin concentration in the skin. Several chemicals have been shown to be effective in skin whitening, while some have proven to be toxic or have questionable safety profiles. "
+    }
+]

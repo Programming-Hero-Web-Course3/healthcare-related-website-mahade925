@@ -1,0 +1,23 @@
+.dentists-container {
+    padding: 100px 0px;
+    background-color: #f0f1f2;
+}
+
+.dentists-container h2 {
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+
+.dentists {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+    .dentists {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

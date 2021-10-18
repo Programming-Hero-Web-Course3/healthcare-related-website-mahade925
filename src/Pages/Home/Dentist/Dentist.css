@@ -1,0 +1,47 @@
+.dentist {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 400px;
+    height: 500px;
+    /* margin-left: 50px; */
+    padding-top: 40px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.dentist-title {
+    margin-bottom: 30px;
+}
+.dentist h4 {
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.dentist img {
+    width: 55%;
+    height: 50%;
+    margin-bottom: 20px;
+    border-radius: 70%;
+}
+.social-icons i {
+    cursor: pointer;
+    margin: 0px 10px;
+    font-size: 20px;
+    padding: 7px;
+    color: white;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+.social-icons i:hover {
+    transition: all 0.3s;
+    background-color: hotpink;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .dentist {
+        margin: auto;
+        margin-top: 50px;
+        width: 90%;
+    }
+}
