@@ -11,21 +11,21 @@ const Blogs = () => {
     }, [])
     return (
         <div className="my-5 container">
-            {/* <h1 className="mb-5">Blogs</h1> */}
-            <div class="row row-cols-1 row-cols-md-2 g-4">
+            <h1 className="mb-5">Blogs</h1>
+            <div className="row row-cols-1 row-cols-md-2 g-4">
                 {
-                    blogs?.map(blog => <>
-                        <div class="col">
-                            <div class="card">
-                                <img src={blog.img} class="card-img-top h-100" alt="..." />
-                                <div class="card-body">
-                                    <h5 class="card-title">{blog.title}</h5>
-                                    <p class="card-text">{blog.desc}</p>
+                    blogs?.map(blog => <div key={blog.id}>
+                        <div className="col">
+                            <div className="card">
+                                <img src={blog.img} className="card-img-top h-100" alt="..." />
+                                <div className="card-body">
+                                    <h5 className="card-title">{blog.title}</h5>
+                                    <p className="card-text">{blog.desc}</p>
                                     <button className="btn btn-info">Read More</button>
                                 </div>
                             </div>
                         </div>
-                    </>)
+                    </div>)
                 }
             </div>
         </div>

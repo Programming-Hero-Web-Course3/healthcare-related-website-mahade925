@@ -8,32 +8,33 @@ const Header = () => {
     const { user, logOut } = useAuth();
     return (
         <>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
-                <div class="container">
-                    <a class="navbar-brand" href="#">Dazzle Dentistry</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-4">
+                <div className="container">
+                    <a className="navbar-brand" href="#">Dazzle Dentistry</a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
                                 <NavLink className="nav-link" to="/home">Home</NavLink>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <HashLink className="nav-link" to="/home#services">Services</HashLink>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <NavLink className="nav-link" to="/blogs">Blogs</NavLink>
                             </li>
-                            <li class="nav-item">
-                                <NavLink className="nav-link" to="/">Shop</NavLink>
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="/appointment">Appointment</NavLink>
                             </li>
                         </ul>
-                        <form class="d-flex">
+                        <form className="d-flex">
                             {
                                 user?.email ? <>
-                                    <h5 className="text-white">Signed in as : {user.displayName}</h5>
-                                    <button onClick={logOut} className="btn btn-outline-info logout-btn" >Logout</button>
+                                    <h5 className="text-white ml-3">Signed in as : {user.displayName}</h5>
+                                    <h5 onClick={logOut} className=" btn btn-danger text-white">Logout</h5>
+                                    {/* <button onClick={logOut} className="btn btn-outline-info logout-btn">Logout</button> */}
                                 </> : <>
                                     <NavLink to="/signin" className="nav-link">Sign in</NavLink>
                                     <NavLink to="/signup">

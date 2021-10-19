@@ -13,7 +13,7 @@ const Gallery = () => {
             <h1 className="gallery-title">Our Gallery</h1>
             <div className="gallery">
                 {
-                    images.map(image => <div>
+                    images.map(image => <div key={image.id}>
                         <img src={image.img} alt="" />
                     </div>)
                 }

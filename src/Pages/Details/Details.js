@@ -24,7 +24,7 @@ const Details = () => {
             <div className="detail-content">
                 <h1>{sItems?.title}</h1>
                 <p>{sItems?.desc}</p>
-                <button type="button" class="btn btn-primary btn-lg">Get It</button>
+                <button type="button" className="btn btn-primary btn-lg">Get It</button>
             </div>
         </div>
     );

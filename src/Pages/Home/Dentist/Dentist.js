@@ -9,9 +9,9 @@ const Dentist = ({ dentist }) => {
             <h1 className="dentist-title">{name}</h1>
             <h4>{job}</h4>
             <div className="social-icons">
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-linkedin-in"></i>
+                <i className="fab fa-instagram"></i>
+                <i className="fab fa-twitter"></i>
+                <i className="fab fa-linkedin-in"></i>
             </div>
         </div>
     );

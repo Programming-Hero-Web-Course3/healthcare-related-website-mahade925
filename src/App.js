@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Header from './Pages/Shared/Header/Header';
@@ -11,6 +10,7 @@ import AuthProvider from './contexts/AuthProvider';
 import Details from './Pages/Details/Details';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import Blogs from './Pages/Blogs/Blogs';
+import Appointment from './Pages/Appointment/Appointment';
 
 function App() {
   return (
@@ -36,6 +36,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/blogs">
               <Blogs></Blogs>
+            </PrivateRoute>
+            <PrivateRoute path="/appointment">
+              <Appointment></Appointment>
             </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
