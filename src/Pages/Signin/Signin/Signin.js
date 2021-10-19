@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 import './Signin.css';
 
@@ -14,6 +14,7 @@ const Signin = () => {
     const handlePassword = e => {
         setPassword(e.target.value)
     }
+
     return (
         <div className="container my-5 w-25">
             <h1 className="my-5">Signin</h1>

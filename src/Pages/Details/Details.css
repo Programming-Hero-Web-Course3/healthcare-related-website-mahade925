@@ -1,0 +1,44 @@
+.detail {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 80px 0px;
+}
+
+.detail-img {
+    width: 50%;
+}
+
+.detail-content {
+    text-align: left;
+    width: 50%;
+}
+
+.detail-img img {
+    width: 60%;
+    border-radius: 15px;
+}
+
+.detail-content h1 {
+    margin-bottom: 20px;
+}
+.detail-content p {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .detail {
+        display: block;
+    }
+    .detail-content {
+        width: 100%;
+    }
+    .detail-img { width: 100%; }
+    .detail-img img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .detail-content p {
+        width: 100%;
+    }
+}

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import './Details.css'
 
 const Details = () => {
     const [serviceDetail, setServiceDetail] = useState([])
@@ -16,10 +17,15 @@ const Details = () => {
     console.log(sItems);
 
     return (
-        <div>
-            <h1>{sItems?.title}</h1>
-            <h1>This is Service {serviceId}</h1>
-            <h2>This page is protected by PrivateRoute</h2>
+        <div className="detail">
+            <div className="detail-img">
+                <img src={sItems?.img} alt="" />
+            </div>
+            <div className="detail-content">
+                <h1>{sItems?.title}</h1>
+                <p>{sItems?.desc}</p>
+                <button type="button" class="btn btn-primary btn-lg">Get It</button>
+            </div>
         </div>
     );
 };

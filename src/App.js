@@ -10,6 +10,7 @@ import NotFound from './Pages/NotFound/NotFound';
 import AuthProvider from './contexts/AuthProvider';
 import Details from './Pages/Details/Details';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
+import Blogs from './Pages/Blogs/Blogs';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
             </Route>
             <PrivateRoute path="/details/:serviceId">
               <Details></Details>
+            </PrivateRoute>
+            <PrivateRoute path="/blogs">
+              <Blogs></Blogs>
             </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
