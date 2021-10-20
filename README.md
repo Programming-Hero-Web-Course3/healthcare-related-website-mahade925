@@ -1,7 +1,7 @@
 <h1>Welcome To Dazzle Dentistry</h1>
 <hr>
 
-<a href="https://dazzle-dentistry.web.app/"></a>
+<a href="https://dazzle-dentistry.web.app/">Live Link</a>
 
 <p>This website is Dentist Clinic and this is fully responsive</p>
 <ul>
